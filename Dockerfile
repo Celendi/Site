@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.15
 RUN apk add node
 RUN mkdir -p /usr/src/soon
 WORKDIR /usr/src/soon
