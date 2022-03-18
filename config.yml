@@ -21,7 +21,7 @@ params:
   keywords: [Celendi, Discord Bot, Celendi Bot]
   author: Celendi
   # author: ["Me", "You"] # multiple authors
-  images: ["https://cdn.celendi.me/IRcYx.png"]
+  images: ["https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light, auto
   disableThemeToggle: true
