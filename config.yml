@@ -58,14 +58,14 @@ params:
     enabled: true # needs to be explicitly set
     title: Celendi
     subtitle: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
-    imageUrl: "https://cdn.celendi.me/2Upe1.png"
+    imageUrl: "https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Celendi Logo
     buttons:
       - name: Invite
         url: https://discord.com/oauth2/authorize?client_id=786679486749999214&permissions=3207851399&scope=bot%20applications.commands
-      - name: Discord
+      - name: Support
         url: https://discord.com/invite/GWdnwwYMjZ
 
   # home-info mode
