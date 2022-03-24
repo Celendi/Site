@@ -50,7 +50,7 @@ params:
 
   label:
     text: "Celendi"
-    icon: https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.png
+    icon: https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.webp
     iconHeight: 35
 
   # profile-mode
@@ -58,7 +58,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Celendi
     subtitle: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
-    imageUrl: "https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.png"
+    imageUrl: "https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.webp"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Celendi Logo
