@@ -42,11 +42,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.png"
-    favicon16x16: "https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.png"
-    favicon32x32: "https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.png"
-    apple_touch_icon: "https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.png"
-    safari_pinned_tab: "https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.png"
+    favicon: "https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Celendi_RED.png"
+    favicon16x16: "https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Celendi_RED.png"
+    favicon32x32: "https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Celendi_RED.png"
+    apple_touch_icon: "https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Celendi_RED.png"
+    safari_pinned_tab: "https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Celendi_RED.png"
 
   label:
     text: "Celendi"
@@ -58,7 +58,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Celendi
     subtitle: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
-    imageUrl: "https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.webp"
+    imageUrl: "https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Celendi_RED.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Celendi Logo
