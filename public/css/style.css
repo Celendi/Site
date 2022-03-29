@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:#272934;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navbar */
+
+.nav-item a {
+    font-size: 1.075rem;
+    font-weight: 400;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #454546;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #2f3031;
+    border-radius: 11px;
+    animation: fadeIn 0.4s;
+    -webkit-animation: fadeIn 0.4s;
+    -moz-animation: fadeIn 0.4s;
+    -o-animation: fadeIn 0.4s;
+    -ms-animation: fadeIn 0.4s;
+}
+
+/* Main */
+
+main h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding-top: 270px;
+}
+
+main p { 
+    color: white; text-align: center; font-size: 1rem;
+}
+
+main widgetbot {
+    margin-left: 20%;
+}
+
+main widgetbot footer {
+    display: none;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
