@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color:#272934;
+    background-color: #272934;
     font-family: 'Lato', sans-serif;
 }
 
@@ -45,41 +45,68 @@ main h1 {
     padding-top: 270px;
 }
 
-main p { 
-    color: white; text-align: center; font-size: 1rem;
+main p {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
 }
 
 main widgetbot {
     margin-left: 20%;
 }
 
-main widgetbot footer {
+main widgetbot auth css-msu8uw-Button-Button-Button-focusable-Auth ejjc4ok7 {
     display: none;
 }
 
 /* Animations */
 
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
