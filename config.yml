@@ -21,7 +21,7 @@ params:
   keywords: [Celendi, Discord Bot, Celendi Bot]
   author: Celendi
   # author: ["Me", "You"] # multiple authors
-  images: ["https://raw.githubusercontent.com/Celendi/images/main/transportainer.png"]
+  images: ["https://raw.githubusercontent.com/Celendi/brand-kit/main/transportainer.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light, auto
   disableThemeToggle: true
@@ -50,7 +50,7 @@ params:
 
   label:
     text: "Celendi"
-    icon: https://raw.githubusercontent.com/Celendi/images/main/Celendi_RED.webp
+    icon: https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Celendi_RED.webp
     iconHeight: 35
 
   # profile-mode
