@@ -7,6 +7,11 @@ html {
 body {
     background-color: #272934;
     font-family: 'Lato', sans-serif;
+    max-height: 100%;
+}
+
+footer {
+    margin-top: 9%;
 }
 
 /* Navbar */
@@ -21,12 +26,12 @@ body {
 }
 
 .dropdown-item:hover {
-    background-color: #454546;
+    background-color: #1c1f23;
     color: white;
 }
 
 .dropdown-menu {
-    background-color: #2f3031;
+    background-color: #212529;
     border-radius: 11px;
     animation: fadeIn 0.4s;
     -webkit-animation: fadeIn 0.4s;
@@ -49,14 +54,6 @@ main p {
     color: white;
     text-align: center;
     font-size: 1rem;
-}
-
-main widgetbot {
-    margin-left: 20%;
-}
-
-main widgetbot auth css-msu8uw-Button-Button-Button-focusable-Auth ejjc4ok7 {
-    display: none;
 }
 
 /* Animations */
