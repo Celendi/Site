@@ -136,3 +136,6 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
+
+# Package Dump
+.package.json
