@@ -10,10 +10,6 @@ body {
     max-height: 100%;
 }
 
-footer {
-    margin-top: 9%;
-}
-
 /* Navbar */
 
 .nav-item a {
@@ -106,4 +102,17 @@ main p {
     100% {
         opacity: 1;
     }
+}
+
+/* Footer */
+
+footer {
+    padding: 10px 10px 0px 10px; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
 }
