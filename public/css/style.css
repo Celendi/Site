@@ -30,10 +30,6 @@ body {
     background-color: #212529;
     border-radius: 11px;
     animation: fadeIn 0.4s;
-    -webkit-animation: fadeIn 0.4s;
-    -moz-animation: fadeIn 0.4s;
-    -o-animation: fadeIn 0.4s;
-    -ms-animation: fadeIn 0.4s;
 }
 
 /* Main */
@@ -52,49 +48,15 @@ main p {
     font-size: 1rem;
 }
 
+.features box {
+    border: #1c1f23;
+    border-radius: 10px;
+    border-style: solid;
+}
+
 /* Animations */
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
     0% {
         opacity: 0;
     }
