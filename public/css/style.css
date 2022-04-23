@@ -48,10 +48,29 @@ main p {
     font-size: 1rem;
 }
 
-.features box {
-    border: #1c1f23;
-    border-radius: 10px;
-    border-style: solid;
+.box {
+    width: 300px;
+    height: 100px;
+    border: 3px solid green;
+    border-radius: 3%;
+    margin: 10px;
+}
+
+.box h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box p {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+#faicon {
+    color: white;
+    float: left;
 }
 
 /* Animations */
@@ -77,4 +96,8 @@ footer {
 footer a {
     text-decoration: none;
     color:gray;
+}
+
+footer a:hover {
+    color: white;
 }
