@@ -34,6 +34,12 @@ body {
 
 /* Main */
 
+.features {
+    background-image: url("../img/wavetop.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
 main h1 {
     text-align: center;
     color: white;
@@ -71,6 +77,13 @@ main p {
 #faicon {
     color: white;
     float: left;
+}
+
+.features {
+    background-image: url("../img/wavedown.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
 }
 
 /* Animations */
