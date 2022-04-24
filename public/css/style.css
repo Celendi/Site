@@ -34,12 +34,6 @@ body {
 
 /* Main */
 
-.features {
-    background-image: url("../img/wavetop.svg");
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
 main h1 {
     text-align: center;
     color: white;
@@ -54,10 +48,14 @@ main p {
     font-size: 1rem;
 }
 
+.boxes {
+    display: flex;  
+    justify-content: center;
+}
+
 .box {
     width: 300px;
     height: 100px;
-    border: 3px solid green;
     border-radius: 3%;
     margin: 10px;
 }
@@ -79,11 +77,22 @@ main p {
     float: left;
 }
 
-.features {
-    background-image: url("../img/wavedown.svg") !important;
-    background-position: bottom !important;
-    background-size: 200% !important;
-    background-repeat: no-repeat !important;
+
+/* Footer */
+
+footer {
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer a:hover {
+    color: white;
 }
 
 /* Animations */
@@ -96,21 +105,4 @@ main p {
     100% {
         opacity: 1;
     }
-}
-
-/* Footer */
-
-footer {
-    padding: 10px 10px 0px 10px; 
-    bottom: 0; 
-    width: 100%; 
-}
-
-footer a {
-    text-decoration: none;
-    color:gray;
-}
-
-footer a:hover {
-    color: white;
 }
