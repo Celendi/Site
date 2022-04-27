@@ -49,8 +49,8 @@ params:
     safari_pinned_tab: "https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Bot%20Logos/Celendi_RED.png"
 
   label:
-    text: "Celendi"
-    icon: https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Celendi_RED.webp
+    text: ""
+    icon: https://github.com/Celendi/brand-kit/blob/main/Logos/celendibanner.png
     iconHeight: 35
 
   # profile-mode
@@ -58,7 +58,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Celendi
     subtitle: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
-    imageUrl: "https://github.com/Celendi/brand-kit/blob/main/Logos/celendibanner.png"
+    imageUrl: "https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/Bot%20Logos/Celendi_RED.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Celendi Logo
