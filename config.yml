@@ -1,4 +1,4 @@
-baseURL: "https://celendi.me"
+baseURL: "https://celendi.xyz"
 title: Celendi
 paginate: 5
 theme: PaperMod
@@ -119,7 +119,7 @@ menu:
       weight: 20
     - identifier: Documentation
       name: Documentation
-      url: https://docs.celendi.me
+      url: https://docs.celendi.xyz
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
