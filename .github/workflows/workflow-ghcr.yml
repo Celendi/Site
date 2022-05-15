@@ -6,12 +6,12 @@ name: Workflow to Github Packages
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ development ]
+    branches: [ dev ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: bot
+  IMAGE_NAME: site
 
 jobs:
   # Push image to GitHub Packages.
@@ -53,7 +53,7 @@ jobs:
         with:
            webhook: ${{ secrets.DISCORD_WEBHOOK }}
            status: ${{ job.status }}
-           title: "Build #${{ github.run_number }} of Celendi Development: ${{ job.status }}"
-           description: "Build number #${{ github.run_number }} of Celendi Development is now available.\nThis is a dev build, and it might not be stable. [Download Build](https://github.com/Celendi/Bot/pkgs/container/bot)"
+           title: "Build #${{ github.run_number }} of Celendi Site: ${{ job.status }}"
+           description: "Build number #${{ github.run_number }} of Celendi Site is now available.\nThis is a dev build, and it might not be stable. [Download Build](https://github.com/Celendi/Bot/pkgs/container/bot)"
            nodetail: true
            username: Celendi Build's
