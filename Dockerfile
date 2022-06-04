@@ -1,7 +1,7 @@
 FROM node:16-alpine AS BUILD
 WORKDIR /build
 COPY . /build
-RUN apk add --no-cache --virtual curl
+RUN apk add --no-cache curl
 RUN npm i -g npm \ 
 && npm i --production \
 && npm cache verify
