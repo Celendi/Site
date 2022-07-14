@@ -113,8 +113,8 @@ menu:
       name: Invite
       url: https://discord.com/oauth2/authorize?client_id=786679486749999214&permissions=3207851399&scope=bot%20applications.commands
       weight: 10
-    - identifier: Support
-      name: Support
+    - identifier: Discord
+      name: Discord
       url: https://discord.gg/invite/YeGXPJWTbz
       weight: 20
     - identifier: Documentation
