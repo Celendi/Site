@@ -23,7 +23,7 @@ params:
   # author: ["Me", "You"] # multiple authors
   images: ["https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/celendibanner.png"]
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light, auto
+  defaultTheme: auto # dark, light, auto
   disableThemeToggle: true
 
   ShowReadingTime: true
