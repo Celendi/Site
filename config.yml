@@ -23,7 +23,7 @@ params:
   # author: ["Me", "You"] # multiple authors
   images: ["https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/celendibanner.png"]
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light, auto
+  defaultTheme: auto # dark, light, auto
   disableThemeToggle: true
 
   ShowReadingTime: true
@@ -78,6 +78,8 @@ params:
       url: "https://twitter.com/celendibot"
     - name: github
       url: "https://github.com/celendi"
+    - name: ko-fi
+      url: "https://ko-fi.com/celendi"
 
   analytics:
     google:
@@ -113,8 +115,8 @@ menu:
       name: Invite
       url: https://discord.com/oauth2/authorize?client_id=786679486749999214&permissions=3207851399&scope=bot%20applications.commands
       weight: 10
-    - identifier: Support
-      name: Support
+    - identifier: Discord
+      name: Discord
       url: https://discord.gg/invite/YeGXPJWTbz
       weight: 20
     - identifier: Documentation
