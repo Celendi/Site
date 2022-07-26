@@ -13,5 +13,6 @@ app.get('/', async (req, res) => {
 app.get("/invite", (req, res) => { res.redirect("https://discord.com/oauth2/authorize?client_id=786679486749999214&permissions=3207851399&scope=bot%20applications.commands")});
 app.get("/discord", (req, res) => { res.redirect("https://discord.gg/GWdnwwYMjZ")});
 app.get("/twitter", (req, res) => { res.redirect("https://twitter.com/CelendiBot")});
+app.get("/docs", (req, res) => { res.redirect("https://docs.celendi.xyz/")});
 
 app.listen(process.env.PORT, () => console.log(`The server is now running on port ${process.env.PORT}`));
