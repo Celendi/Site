@@ -131,4 +131,5 @@ dist
 .svelte-kit
 
 # Package Dump
-.package.json/
+.package-lock.json
+.package-lock.json/
