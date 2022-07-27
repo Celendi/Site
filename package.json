@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./app.js",
-    "dev": "nodemon ./app.js"
+    "dev": "nodemon ./app.js",
+    "build": "npx tailwindcss -i ./public/index.css --minify -o ./public/output.css"
   },
   "repository": {
     "type": "git",
