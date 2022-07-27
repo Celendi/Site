@@ -5,7 +5,7 @@ RUN apk add --no-cache curl
 RUN npm i -g npm \ 
 && npm i --production \
 && npm cache verify
-RUN rm -r /build/Dockerfile /build/README.md /build/package-lock.json 
+RUN rm -r /build/Dockerfile /build/package-lock.json 
 
 FROM node:16-alpine AS APP
 ENV NODE_ENV "production"
