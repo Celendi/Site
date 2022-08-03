@@ -119,10 +119,14 @@ menu:
       name: Discord
       url: https://discord.gg/invite/YeGXPJWTbz
       weight: 20
+    - identifier: Status
+      name: Status
+      url: https://status.celendi.xyz
+      weight: 30
     - identifier: Documentation
       name: Documentation
       url: https://docs.celendi.xyz
-      weight: 30
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
