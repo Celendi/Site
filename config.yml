@@ -19,17 +19,17 @@ params:
   title: Celendi
   description: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
   keywords: [Celendi, Discord Bot, Celendi Bot]
-  author: Celendi
+  author: Team Celendi
   # author: ["Me", "You"] # multiple authors
   images: ["https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/celendibanner.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light, auto
   disableThemeToggle: true
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -74,12 +74,14 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/celendibot"
-    - name: github
-      url: "https://github.com/celendi"
     - name: kofi
       url: "https://ko-fi.com/celendi"
+    - name: github
+      url: "https://github.com/celendi"
+    - name: twitter
+      url: "https://twitter.com/celendibot"
+    - name: reddit
+      url: "https://reddit.com/r/celendibot"
 
   analytics:
     google:
