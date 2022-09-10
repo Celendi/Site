@@ -21,7 +21,7 @@ params:
   keywords: [Celendi, Discord Bot, Celendi Bot]
   author: Team Celendi
   # author: ["Me", "You"] # multiple authors
-  images: ["https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/celendibanner.png"]
+  images: ["https://guthub.com/Celendi/brand-kit/main/Logos/celendibanner.png?raw=true"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light, auto
   disableThemeToggle: true
@@ -87,7 +87,7 @@ params:
     - name: reddit
       url: "https://reddit.com/r/celendibot"
     - name: tiktok
-      url: "https://tiktok.com/celendibot"
+      url: "https://tiktok.com/@celendibot"
     - name: snapchat
       url: "https://snapchat.com/add/celendibot"
 
