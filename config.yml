@@ -65,7 +65,7 @@ params:
     buttons:
       - name: Invite
         url: https://discord.com/oauth2/authorize?client_id=786679486749999214&permissions=3207851399&scope=bot%20applications.commands
-      - name: Support
+      - name: Discord
         url: https://discord.com/invite/YeGXPJWTbz
 
   # home-info mode
@@ -75,13 +75,21 @@ params:
 
   socialIcons:
     - name: kofi
-      url: "https://ko-fi.com/celendi"
+      url: "https://ko-fi.com/celendibot"
     - name: github
       url: "https://github.com/celendi"
+    - name: facebook
+      url: "https://www.facebook.com/celendibot"
+    - name: instagram
+      url: "https://instagram.com/celendibot" 
     - name: twitter
       url: "https://twitter.com/celendibot"
     - name: reddit
       url: "https://reddit.com/r/celendibot"
+    - name: tiktok
+      url: "https://tiktok.com/celendibot"
+    - name: snapchat
+      url: "https://snapchat.com/add/celendibot"
 
   analytics:
     google:
