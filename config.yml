@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Celendi
+  title: Team Celendi
   description: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
   keywords: [Celendi, Discord Bot, Celendi Bot]
   author: Team Celendi
@@ -40,8 +40,8 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
     favicon: "https://github.com/Celendi/brand-kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
     favicon16x16: "https://github.com/Celendi/brand-kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
     favicon32x32: "https://github.com/Celendi/brand-kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
@@ -116,19 +116,19 @@ menu:
     - identifier: Invite
       name: Invite
       url: https://discord.com/oauth2/authorize?client_id=786679486749999214&permissions=3207851399&scope=bot%20applications.commands
-      weight: 10
+      weight: 1
     - identifier: Discord
       name: Discord
       url: https://discord.gg/invite/YeGXPJWTbz
-      weight: 20
+      weight: 2
     - identifier: Status
       name: Status
       url: https://status.celendi.xyz
-      weight: 30
+      weight: 3
     - identifier: Documentation
       name: Documentation
       url: https://docs.celendi.xyz
-      weight: 40
+      weight: 4
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
