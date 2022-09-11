@@ -7,6 +7,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
 
 googleAnalytics: G-5T7Z27D6K1
 
@@ -21,7 +22,7 @@ params:
   keywords: [Celendi, Discord Bot, Celendi Bot]
   author: Team Celendi
   # author: ["Me", "You"] # multiple authors
-  images: ["https://guthub.com/Celendi/brand-kit/main/Logos/celendibanner.png?raw=true"]
+  images: ["celendibanner.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light, auto
   disableThemeToggle: true
@@ -42,23 +43,23 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     disableFingerprinting: true
-    favicon: "https://github.com/Celendi/brand-kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
-    favicon16x16: "https://github.com/Celendi/brand-kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
-    favicon32x32: "https://github.com/Celendi/brand-kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
-    apple_touch_icon: "https://github.com/Celendi/brand-kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
-    safari_pinned_tab: "https://github.com/Celendi/brand-kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
+    favicon: "Celendi_RED.png"
+    favicon16x16: "Celendi_RED.png"
+    favicon32x32: "Celendi_RED.png"
+    apple_touch_icon: "Celendi_RED.png"
+    safari_pinned_tab: "Celendi_RED.png"
 
   label:
     text: " "
-    icon: https://raw.githubusercontent.com/Celendi/brand-kit/main/Logos/celendibanner.png?raw=true
+    icon: celendibanner.png
     iconHeight: 50
-
+  
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
     title: Celendi
     subtitle: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
-    imageUrl: "https://github.com/Celendi/brand-kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
+    imageUrl: "Celendi_RED.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Celendi Logo
@@ -137,12 +138,39 @@ menu:
       name: Documentation
       url: https://docs.celendi.xyz
       weight: 4
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
