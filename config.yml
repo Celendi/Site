@@ -89,8 +89,6 @@ params:
       url: "https://reddit.com/r/celendibot"
     - name: tiktok
       url: "https://tiktok.com/@celendibot"
-    - name: snapchat
-      url: "https://snapchat.com/add/celendibot"
 
   analytics:
     google:
