@@ -22,7 +22,7 @@ params:
   keywords: [Celendi, Discord Bot, Celendi Bot]
   author: Team Celendi
   # author: ["Me", "You"] # multiple authors
-  images: ["celendibanner.png"]
+  images: ["https://static.celendi.xyz/img/celendibanner.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light, auto
   disableThemeToggle: true
@@ -43,11 +43,11 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     disableFingerprinting: true
-    favicon: "Celendi_RED.png"
-    favicon16x16: "Celendi_RED.png"
-    favicon32x32: "Celendi_RED.png"
-    apple_touch_icon: "Celendi_RED.png"
-    safari_pinned_tab: "Celendi_RED.png"
+    favicon: "https://static.celendi.xyz/img/Celendi_RED.png"
+    favicon16x16: "https://static.celendi.xyz/img/Celendi_RED.png"
+    favicon32x32: "https://static.celendi.xyz/img/Celendi_RED.png"
+    apple_touch_icon: "https://static.celendi.xyz/img/Celendi_RED.png"
+    safari_pinned_tab: "https://static.celendi.xyz/img/Celendi_RED.png"
 
   label:
     text: " "
