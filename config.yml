@@ -59,7 +59,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Celendi
     subtitle: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
-    imageUrl: "Celendi_RED.png"
+    imageUrl: "https://static.celendi.xyz/img/Celendi_RED.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Celendi Logo
