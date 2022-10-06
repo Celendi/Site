@@ -51,7 +51,7 @@ params:
 
   label:
     text: " "
-    icon: celendibanner.png
+    icon: https://static.celendi.xyz/img/celendibanner.png
     iconHeight: 50
   
   # profile-mode
@@ -86,23 +86,10 @@ params:
     - name: tiktok
       url: "https://tiktok.com/@celendibot"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/celendi/site/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -114,6 +101,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+    
 menu:
   main:
     - identifier: Invite
@@ -144,24 +132,6 @@ markup:
         # guessSyntax: true
         # lineNos: true
         # style: monokai
-
-privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
 
 services:
     instagram:
