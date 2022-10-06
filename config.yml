@@ -79,10 +79,6 @@ params:
       url: "https://ko-fi.com/celendibot"
     - name: github
       url: "https://github.com/celendi"
-    - name: facebook
-      url: "https://www.facebook.com/celendibot"
-    - name: instagram
-      url: "https://instagram.com/celendibot" 
     - name: twitter
       url: "https://twitter.com/celendibot"
     - name: reddit
