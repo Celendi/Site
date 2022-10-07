@@ -18,7 +18,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Team Celendi
-  description: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
+  description: "Celendi is a multipurpose discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
   keywords: [Celendi, Discord Bot, Celendi Bot]
   author: Team Celendi
   # author: ["Me", "You"] # multiple authors
@@ -58,7 +58,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Celendi
-    subtitle: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
+    subtitle: "Celendi is a multipurpose discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
     imageUrl: "https://static.celendi.xyz/img/Celendi_RED.png"
     imageWidth: 120
     imageHeight: 120
