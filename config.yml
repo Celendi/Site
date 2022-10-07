@@ -18,7 +18,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Team Celendi
-  description: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
+  description: "Celendi is a multipurpose discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
   keywords: [Celendi, Discord Bot, Celendi Bot]
   author: Team Celendi
   # author: ["Me", "You"] # multiple authors
@@ -51,14 +51,14 @@ params:
 
   label:
     text: " "
-    icon: celendibanner.png
+    icon: https://static.celendi.xyz/img/celendibanner.png
     iconHeight: 50
   
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
     title: Celendi
-    subtitle: "Celendi is a multi-functional discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
+    subtitle: "Celendi is a multipurpose discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
     imageUrl: "https://static.celendi.xyz/img/Celendi_RED.png"
     imageWidth: 120
     imageHeight: 120
@@ -79,10 +79,6 @@ params:
       url: "https://ko-fi.com/celendibot"
     - name: github
       url: "https://github.com/celendi"
-    - name: facebook
-      url: "https://www.facebook.com/celendibot"
-    - name: instagram
-      url: "https://instagram.com/celendibot" 
     - name: twitter
       url: "https://twitter.com/celendibot"
     - name: reddit
@@ -90,23 +86,10 @@ params:
     - name: tiktok
       url: "https://tiktok.com/@celendibot"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/celendi/site/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -118,6 +101,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+    
 menu:
   main:
     - identifier: Invite
@@ -148,24 +132,6 @@ markup:
         # guessSyntax: true
         # lineNos: true
         # style: monokai
-
-privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
 
 services:
     instagram:
