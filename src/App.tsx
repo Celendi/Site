@@ -24,8 +24,8 @@ function App() {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
-              <img className="block lg:hidden h-10 w-auto" src="https://pub-9ec8b220f8ee4035b585cd68f0fecfdf.r2.dev/img/celendibanner.png" alt="Celendi" />
-              <img className="hidden lg:block h-12 w-auto mt-1" src="https://pub-9ec8b220f8ee4035b585cd68f0fecfdf.r2.dev/img/celendibanner.png" alt="Celendi" />
+              <a href="#/"><img className="block lg:hidden h-10 w-auto" src="https://pub-9ec8b220f8ee4035b585cd68f0fecfdf.r2.dev/img/celendibanner.png" alt="Celendi" /></a>
+              <a href="#/"><img className="hidden lg:block h-12 w-auto mt-1" src="https://pub-9ec8b220f8ee4035b585cd68f0fecfdf.r2.dev/img/celendibanner.png" alt="Celendi" /></a>
             </div>
             <div className="hidden sm:block sm:ml-6 mt-1">
               <div className="flex space-x-4">
