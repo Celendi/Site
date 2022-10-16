@@ -65,9 +65,9 @@ params:
     imageTitle: Celendi Logo
     buttons:
       - name: Invite
-        url: https://discord.com/oauth2/authorize?client_id=786679486749999214&permissions=3207851399&scope=bot%20applications.commands
+        url: https://celendi.xyz/invite
       - name: Discord
-        url: https://discord.com/invite/YeGXPJWTbz
+        url: https://celendi.xyz/discord
 
   # home-info mode
   homeInfoParams:
@@ -106,15 +106,15 @@ menu:
   main:
     - identifier: Invite
       name: Invite
-      url: https://discord.com/oauth2/authorize?client_id=786679486749999214&permissions=3207851399&scope=bot%20applications.commands
+      url: https://celendi.xyz/invite
       weight: 1
     - identifier: Vote
       name: Vote
-      url: https://top.gg/bot/786679486749999214
+      url: https://celendi.xyz/vote
       weight: 2 
     - identifier: Discord
       name: Discord
-      url: https://discord.gg/invite/YeGXPJWTbz
+      url: https://celendi.xyz/discord
       weight: 3
     - identifier: Status
       name: Status
