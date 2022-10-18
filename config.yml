@@ -22,7 +22,7 @@ params:
   keywords: [Celendi, Discord Bot, Celendi Bot]
   author: Team Celendi
   # author: ["Me", "You"] # multiple authors
-  images: ["https://static.celendi.xyz/img/celendibanner.png"]
+  images: ["https://github.com/Celendi/Brand-Kit/blob/main/Logos/celendibanner.png?raw=true"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light, auto
   disableThemeToggle: true
@@ -43,11 +43,11 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     disableFingerprinting: true
-    favicon: "https://static.celendi.xyz/img/Celendi_RED.png"
-    favicon16x16: "https://static.celendi.xyz/img/Celendi_RED.png"
-    favicon32x32: "https://static.celendi.xyz/img/Celendi_RED.png"
-    apple_touch_icon: "https://static.celendi.xyz/img/Celendi_RED.png"
-    safari_pinned_tab: "https://static.celendi.xyz/img/Celendi_RED.png"
+    favicon: "https://github.com/Celendi/Brand-Kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
+    favicon16x16: "https://github.com/Celendi/Brand-Kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
+    favicon32x32: "https://github.com/Celendi/Brand-Kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
+    apple_touch_icon: "https://github.com/Celendi/Brand-Kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
+    safari_pinned_tab: "https://github.com/Celendi/Brand-Kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
 
   label:
     text: " "
@@ -59,7 +59,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Celendi
     subtitle: "Celendi is a multipurpose discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
-    imageUrl: "https://static.celendi.xyz/img/Celendi_RED.png"
+    imageUrl: "https://github.com/Celendi/Brand-Kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Celendi Logo
