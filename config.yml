@@ -51,7 +51,7 @@ params:
 
   label:
     text: " "
-    icon: https://static.celendi.xyz/img/celendibanner.png
+    icon: https://github.com/Celendi/Brand-Kit/blob/main/Logos/celendibanner.png?raw=true
     iconHeight: 50
   
   # profile-mode
