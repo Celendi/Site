@@ -1,4 +1,5 @@
-/invite https://discord.com/api/oauth2/authorize?client_id=786679486749999214&permissions=1513187961943&scope=bot%20applications.commands 301
+/invite https://discord.com/api/oauth2/authorize?client_id=786679486749999214&permissions=1513187961943&redirect_uri=https%3A%2F%2Fdiscord.com%2Finvite%2FYeGXPJWTbz&response_type=code&scope=bot%20applications.commands%20guilds.join 301
+/invite-canary https://discord.com/api/oauth2/authorize?client_id=1020024686882603168&permissions=15131879619433&redirect_uri=https%3A%2F%2Fdiscord.com%2Finvite%2FYeGXPJWTbz&response_type=code&scope=bot%20applications.commands%20guilds.join 301
 /vote https://top.gg/bot/786679486749999214/vote 301
 /support https://discord.com/invite/YeGXPJWTbz 301
 /discord https://discord.com/invite/YeGXPJWTbz 301
