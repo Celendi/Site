@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #181D29;
 }
 
 code {
@@ -19,4 +20,9 @@ code {
 
 h1 {
   font-size: 32px;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque, Black';
+  src: url(https:/raw.githubusercontent.com/Celendi/Brand-Kit/blob/main/Fonts/brandon-grotesque-black.otf?raw=true);
 }
