@@ -23,9 +23,8 @@
     {{- with .Site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
 <meta name="author" content="{{ (partial "author.html" . ) }}">
 <link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}" />
-{{- if .Site.Params.analytics.google.SiteVerificationTag }}
-<meta name="google-site-verification" content="{{ .Site.Params.analytics.google.SiteVerificationTag }}" />
-{{- end }}
+<!--CelendiLytics-->
+<script async defer data-website-id="b4bfe6c2-4e73-4fe0-9242-7111916da143" src="https://analytics.celendi.xyz/umami.js"></script>
 {{- if .Site.Params.analytics.yandex.SiteVerificationTag }}
 <meta name="yandex-verification" content="{{ .Site.Params.analytics.yandex.SiteVerificationTag }}" />
 {{- end }}
@@ -95,9 +94,6 @@
 {{- end }}
 {{- end }}
 
-{{- /* CelendiLytics */}}
-<script async defer data-website-id="8b0078db-4369-44aa-9f85-9093574f16d5" src="https://analytics.celendi.xyz/umami.js"></script>
-
 {{- /* Favicons */}}
 <link rel="icon" href="{{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.Params.assets.favicon16x16 | default "favicon-16x16.png" | absURL }}">
@@ -159,7 +155,6 @@
 
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
-{{- template "_internal/google_analytics.html" . }}
 {{- template "partials/templates/opengraph.html" . }}
 {{- template "partials/templates/twitter_cards.html" . }}
 {{- template "partials/templates/schema_json.html" . }}
