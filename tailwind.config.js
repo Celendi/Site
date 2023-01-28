@@ -21,8 +21,15 @@ module.exports = {
       },
       borderWidth: {
         '1': '1px'
-      }
+      },
+      maxWidth: {
+        '4/5': '80%',
+        '9/10': '90%'
+      },
+      maxHeight: {
+        '21': '1.3125rem'
+      },
     }
   },
   plugins: [],
-}
+};
