@@ -52,7 +52,7 @@ params:
   label:
     text: " "
     icon: "https://github.com/Celendi/Brand-Kit/blob/main/banners/transparant.png?raw=true"
-    iconHeight: 50
+    iconHeight: 80
   
   # profile-mode
   profileMode:
@@ -60,8 +60,8 @@ params:
     title: Celendi
     subtitle: "Celendi is a multipurpose discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
     imageUrl: "https://raw.githubusercontent.com/Celendi/Brand-Kit/main/logos/red/red.svg?raw=true"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 200
+    imageHeight: 400
     imageTitle: Celendi Logo
     buttons:
       - name: Invite
