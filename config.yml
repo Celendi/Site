@@ -61,7 +61,7 @@ params:
     subtitle: "Celendi is a multipurpose discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
     imageUrl: "https://raw.githubusercontent.com/Celendi/Brand-Kit/main/logos/red/red.svg?raw=true"
     imageWidth: 200
-    imageHeight: 400
+    imageHeight: 200
     imageTitle: Celendi Logo
     buttons:
       - name: Invite
