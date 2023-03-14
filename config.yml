@@ -51,7 +51,7 @@ params:
 
   label:
     text: " "
-    icon: https://github.com/Celendi/Brand-Kit/blob/main/Logos/celendibanner.png?raw=true
+    icon: "https://github.com/Celendi/Brand-Kit/blob/main/banners/transparant.png?raw=true"
     iconHeight: 50
   
   # profile-mode
@@ -59,7 +59,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Celendi
     subtitle: "Celendi is a multipurpose discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!"
-    imageUrl: "https://github.com/Celendi/Brand-Kit/blob/main/Logos/Bot%20Logos/Celendi_RED.png?raw=true"
+    imageUrl: "https://raw.githubusercontent.com/Celendi/Brand-Kit/main/logos/red/red.svg?raw=true"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Celendi Logo
