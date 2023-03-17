@@ -1,4 +1,4 @@
-baseURL: "https://celendi.xyz"
+baseURL: "https://celendi.gg"
 title: Celendi
 paginate: 5
 theme: PaperMod
@@ -65,9 +65,9 @@ params:
     imageTitle: Celendi Logo
     buttons:
       - name: Invite
-        url: https://celendi.xyz/invite
+        url: https://celendi.gg/invite
       - name: Discord
-        url: https://celendi.xyz/discord
+        url: https://celendi.gg/discord
 
   # home-info mode
   homeInfoParams:
@@ -106,23 +106,23 @@ menu:
   main:
     - identifier: Invite
       name: Invite
-      url: https://celendi.xyz/invite
+      url: https://celendi.gg/invite
       weight: 1
     - identifier: Vote
       name: Vote
-      url: https://celendi.xyz/vote
+      url: https://celendi.gg/vote
       weight: 2 
     - identifier: Discord
       name: Discord
-      url: https://celendi.xyz/discord
+      url: https://celendi.gg/discord
       weight: 3
     - identifier: Status
       name: Status
-      url: https://status.celendi.xyz
+      url: https://status.celendi.gg
       weight: 4
     - identifier: Documentation
       name: Documentation
-      url: https://docs.celendi.xyz
+      url: https://docs.celendi.gg
       weight: 5
     
 
