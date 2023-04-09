@@ -1,5 +1,4 @@
-import '../App.css';
-import 'flowbite';
+import banner from '../assets/banner.png';
 
 function Navbar() {
     function toggle() {
@@ -7,35 +6,53 @@ function Navbar() {
         menu!.classList.toggle('hidden');
     }
 
+    function scrollToFeatures() {
+        const element = document.getElementById('features');
+        if (element) element.scrollIntoView({ behavior: 'smooth' });
+    }
+
     return (
-        <nav className="px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-            <div className="container flex flex-wrap items-center justify-between mx-auto">
-                <a href="https://celendi.xyz/" className="flex items-center">
-                    <img src="https://raw.githubusercontent.com/Celendi/Brand-Kit/main/Logos/celendibanner.png?raw=true" className="h-5 mr-4 sm:h-16" alt="Celendi Logo" />
-                    {/* <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Celendi</span> */}
-                </a>
-                <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                    <span className="sr-only">Open main menu</span>
-                    <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                </button>
-                <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                    <ul className="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                        <li>
-                            <a href="#" className="block px-3 py-2 text-base font-medium w-auto mt-2 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-200 md:p-0 dark:text-white" aria-current="page">Home</a>
-                        </li>
-                        <li>
-                            <a href="#" className="block px-3 py-2 text-base font-medium w-auto mt-2 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Features</a>
-                        </li>
-                        <li>
-                            <a href="#" className="block px-3 py-2 text-base font-medium w-auto mt-2 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Premium</a>
-                        </li>
-                        <li>
-                            <a href="#" className="block px-3 py-2 text-base font-big w-auto mt-2 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Documentation</a>
-                        </li>
-                        <li>
-                            <button className='bg-brand text-white hover:bg-brand-hover block px-3 py-2 rounded-md text-sm font-medium w-auto mt-1'>Add to your server</button>
-                        </li>
-                    </ul>
+        <nav className='bg-secondary'>
+            <div className='mx-auto px-2 sm:px-6 lg:px-8'>
+                <div className='relative flex items-center justify-between h-24'>
+                    <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
+                        {/* Mobile menu button*/}
+                        <button type='button' className='inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white' aria-controls='mobile-menu' aria-expanded='false' onClick={toggle}>
+                            <span className='sr-only'>Open main menu</span>
+                            <svg className='block h-6 w-6' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' aria-hidden='true'>
+                                <path strokeLinecap='round' strokeLinejoin='round' d='M4 6h16M4 12h16M4 18h16' />
+                            </svg>
+                            <svg className='hidden h-6 w-6' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' aria-hidden='true'>
+                                <path strokeLinecap='round' strokeLinejoin='round' d='M6 18L18 6M6 6l12 12' />
+                            </svg>
+                        </button>
+                    </div>
+                    <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
+                        <div className='flex-shrink-0 flex items-center'>
+                            <a href='#/'><img className='block lg:hidden h-14 w-auto' src={banner} alt='Celendi' /></a>
+                            <a href='#/'><img className='hidden lg:block h-20 w-auto mt-1' src={banner} alt='Celendi' /></a>
+                            <div className='hidden sm:block sm:ml-6'>
+                                <div className='flex space-x-4'>
+                                    <a href='/' className='bg-gray-900 text-white px-3 py-2 rounded-md text-base block font-medium w-auto mt-1' aria-current='page'>Home</a>
+                                    <button className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium w-auto mt-1' onClick={scrollToFeatures}>Features</button>
+                                    <a href='https://docs.celendi.gg/' className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium w-auto mt-1'>Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='hidden sm:block sm:ml-6'>
+                        <button className='bg-brand text-white hover:bg-brand-hover block px-3 py-2 rounded-md text-base font-medium w-auto mt-1' onClick={scrollToFeatures}>Add to your server</button>
+                    </div>
+                </div>
+            </div>
+
+            {/* Mobile menu, show/hide based on menu state. */}
+            <div className='sm:hidden hidden' id='mobile-menu'>
+                <div className='px-2 pt-2 pb-3 space-y-1'>
+                    <a href='/' className='bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium' aria-current='page'>Home</a>
+                    <button className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium' onClick={scrollToFeatures}>Features</button>
+                    <a href='https://docs.celendi.gg/' className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Documentation</a>
+                    <button className='bg-brand text-white hover:bg-brand-hover hover:text-white block px-3 py-2 rounded-md text-base font-medium' onClick={scrollToFeatures}>Add to your server</button>
                 </div>
             </div>
         </nav>
