@@ -1,9 +1,11 @@
 import banner from '../assets/banner.png';
+import { useState } from 'react';
 
 function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
+
     function toggle() {
-        const menu = document.getElementById('mobile-menu');
-        menu!.classList.toggle('hidden');
+        setIsOpen(!isOpen);
     }
 
     function scrollToFeatures() {
@@ -41,20 +43,20 @@ function Navbar() {
                         </div>
                     </div>
                     <div className='hidden sm:block sm:ml-6'>
-                        <button className='bg-brand text-white hover:bg-brand-hover block px-3 py-2 rounded-md text-base font-medium w-auto mt-1' onClick={scrollToFeatures}>Add to your server</button>
+                        <a href='/invite'><button className='bg-brand text-white hover:bg-brand-hover block px-3 py-2 rounded-md text-base font-medium w-auto mt-1'>Add to your server</button></a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            {/* Mobile menu, show/hide based on menu state. */}
-            <div className='sm:hidden hidden' id='mobile-menu'>
-                <div className='px-2 pt-2 pb-3 space-y-1'>
-                    <a href='/' className='bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium' aria-current='page'>Home</a>
-                    <button className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium' onClick={scrollToFeatures}>Features</button>
-                    <a href='https://docs.celendi.gg/' className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Documentation</a>
-                    <button className='bg-brand text-white hover:bg-brand-hover hover:text-white block px-3 py-2 rounded-md text-base font-medium' onClick={scrollToFeatures}>Add to your server</button>
+                {/* Mobile menu, show/hide based on menu state. */}
+                <div className={`sm:hidden ${isOpen ? 'open' : 'hidden'}`} id='mobile-menu'>
+                    <div className='px-2 pt-2 pb-3 space-y-1'>
+                        <a href='/' className='bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium' aria-current='page'>Home</a>
+                        <button className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium' onClick={scrollToFeatures}>Features</button>
+                        <a href='https://docs.celendi.gg/' className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Documentation</a>
+                        <a href='/invite'><button className='bg-brand text-white hover:bg-brand-hover hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Add to your server</button></a>
+                    </div>
                 </div>
-            </div>
         </nav>
     );
 }
