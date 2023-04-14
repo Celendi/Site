@@ -86,7 +86,7 @@ function Features() {
                             <p className='text-base md:text-lg mb-4 text-center md:text-start'>Make things easier with our utility commands, create or steal stickers/emojis with just one command.</p>
                         </div>
                         <div className='w-full md:w-1/2 md:order-1'>
-                            <img className='rounded-xl w-11/12' src='https://i.imgur.com/rcYNkto.png' alt='Utility' />
+                            <img className='rounded-xl w-11/12' src='https://i.imgur.com/FCkXxCd.png alt='Utility' />
                         </div>
                     </div>
                 </div>
