@@ -61,7 +61,7 @@ function Features() {
                     <div className='flex flex-col md:flex-row'>
                         <div className='w-full md:w-1/2 md:order-2'>
                             <h2 className='text-2xl font-bold mb-2 md:mb-4 text-center md:text-start'>Memes</h2>
-                            <p className='text-base md:text-lg mb-4 text-center md:text-start'>Liew random memes from Reddit or generate memes with our meme templates.</p>
+                            <p className='text-base md:text-lg mb-4 text-center md:text-start'>View random memes from Reddit or generate memes with our meme templates.</p>
                         </div>
                         <div className='w-full md:w-1/2 md:order-1'>
                             <img className='rounded-xl w-11/12' src='https://i.imgur.com/rcYNkto.png' alt='Memes' />
