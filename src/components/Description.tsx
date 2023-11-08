@@ -12,7 +12,7 @@ function Description() {
                 <h1 className='text-white font-proxima-nova font-bold text-3xl sm:text-5.5xl text-center sm:text-left'>
                     Celendi
                 </h1>
-                <p className='text-gray-300 w-96 mt-3 sm:mt-8 mb-1 text-center sm:text-left p-4'>
+                <p className='text-gray-300 w-96 mt-3 sm:mt-8 mb-1 text-center sm:text-left'>
                     Celendi is a multipurpose Discord bot designed to be the only bot you need in your server, containing a wide selection of commands from fun to moderation, we have it all!
                 </p>
                 <div className='flex'>
